@@ -73,5 +73,6 @@ def update_items(storename):
             store['items']['item3']= new_item
 
             return jsonify(list_stores)
+    return jsonify({'message':'store not found'})
 
 app.run(port=5000)
