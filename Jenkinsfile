@@ -20,7 +20,7 @@ pipeline {
         sh 'echo "test stage"'
       }
     }
-    stage('') {
+    stage('deploy') {
       steps {
         sh 'echo "deploy stage"'
       }
